@@ -1,0 +1,81 @@
+/* цвет основного текста color: #757575; 
+цвет вторичного текста: #212121; */
+/* акцент: #2196F3; */
+/* цвет фона основной: #E5E5E5; */
+/* цвет фона вторичный: #F5F4FA; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-whaite-color: #ffffff;
+}
+body {
+  font-family: roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+/* heder */
+
+/* logo */
+.logo {
+  font-family: raleway, sans-serif;
+  color: var(--title-text-color);
+  font-size: 26px;
+  line-height: 1,19;
+  letter-spacing: 0.03em;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+/* site-nave */
+
+.site-nave .link{
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14
+  letter-spacing: 0.02em;
+}
+  .site-nave .link:hover,
+  .site-nave .link:focus {
+    color: var(--accent-color);
+  }
+  .site-nave .link.current {
+    color: var(--accent-color);
+  }
+/* contakt list */
+
+  .contact .list {
+  color: var(--primary-text-color);   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14px;
+  letter-spacing: 0.02em;
+  }
+
+  /* projects */
+
+  .button {
+  color: var(--title-text-color); 
+  background-color: #E5E5E5;
+  }
+
+  .button.primary {
+  background-color: var(--accent-color);
+  color:#FFFFFF;
+  }
+
+   
+  
+
+
+ 
+ 
+    
+  
