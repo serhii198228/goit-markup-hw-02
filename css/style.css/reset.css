@@ -13,4 +13,5 @@ ul li {
 }
 button {
     border: none;
+    cursor: pointer;
 }
