@@ -1,4 +1,4 @@
-:root{
+:root {
 --main-color: #212121;
 --sec-color: #757575;
 --act-color: #2196F3;
@@ -144,6 +144,33 @@ font-family: 'roboto', sans-serif;
 .button {
 color: var(--main-color);
 background-color: var(--whaite-color);
+font-family: 'roboto', sans-serif;
+background-color: #F5F4FA;
+color: var(--main-color);
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+width: 128px;
+height: 38px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* filter */
+
+.button.primary {
+background-color: var(--act-color);
+color: var(--whaite-color);
+width: 73px;
+height: 38px;
+left: 495px;
+top: 174px;
+font-family: 'roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: center;
+letter-spacing: 0.03em;
 }
 .button-hover {
 position: absolute;
@@ -172,6 +199,7 @@ letter-spacing: 0.03em;
 }
 
 /* What are we doing 2 */
+/* our team */
 
 .work {
 font-family: 'roboto', sans-serif;
@@ -189,6 +217,10 @@ font-size: 16px;
 line-height: calc(19/16);
 letter-spacing: 0.03em;
 color: var(--main-color);
+width: 322px;
+height: 36px;
+left: 239px;
+top: 576px;
 }
 .post-text {
 font-family: 'roboto', sans-serif;
@@ -197,6 +229,10 @@ font-size: 16px;
 line-height: calc(19/16);
 letter-spacing: 0.03em;
 color: var(--sec-color);
+width: 322px;
+height: 30px;
+left: 239px;
+top: 616px;
 }
 
 /* footer */
