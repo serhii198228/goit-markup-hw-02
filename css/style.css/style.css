@@ -35,6 +35,7 @@ nav,
 header .conteiner {
   display: flex;
   justify-content: space-between;
+
 }
 header {
   border-bottom: 1 px; color: #ececec;
@@ -57,6 +58,11 @@ header .logo {
   display: inline-block;
   margin-right: 5px;
 }
+.logo-color-waite {
+  color: var(--whaite-color);
+  display: inline-block;
+  margin-right: 5px;
+}
 .links li a {
   margin-right: 50px;
   display: inline-block;
@@ -70,23 +76,116 @@ header .logo {
 .links li :last-child a {
   margin-right: 0px;
 }
-.contacts li a {
-  margin-left: 50px;
-  padding: 30.5px 0;
-  display: inline-block;
-  font-weight: 500;
-  line-height: calc(16/14);
-  letter-spacing: 0.02em;
-  color: var(--sec-color);
+h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60/44);
+color: var(--whaite-color);
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contacts li a {
+margin-left: 50px;
+padding: 30.5px 0;
+display: inline-block;
+font-weight: 500;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--sec-color);
+}
+.footer li a:hover,
+.footer li a:focus,
 .contacts li a:hover, 
 .contacts li a:focus, 
 .links li a:focus,
-.links li a:hover{
+.links li a:hover {
   color: var(--act-color);
 }
 
 
 .contacts li :first-child a {
   margin-left: 0;
+}
+.address {
+color: var(--whaite-color);
+font-family: 'roboto', sans-serif;
+font-style: normal;  
+font-size: 14px;
+line-height: 1.71;
+}
+.nav.list {    
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14px;
+letter-spacing: 0.02em;
+color: var(--sec-color);
+}
+.hero {
+ 
+width: 1200px;
+height: 600px;
+background: #2F303A;
+ 
+}
+.hero-button {
+  background-color: var();
+  color:#FFFFFF;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.87;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: roboto, sans-serif;
+  }
+.button {
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+}
+.button-hover {
+  position: absolute;
+visibility: hidden;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+}
+
+
+
+
+
+
+
+
+
+.footer {
+background: #2F303A;
+padding: 0 15px;
+width: 1200px;
+border: 1px solid red;
+margin: 0 auto;
 }
