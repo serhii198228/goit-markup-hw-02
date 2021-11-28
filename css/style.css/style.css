@@ -97,10 +97,16 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
 color: var(--sec-color);
 }
-.conteiner button:hover,
-.conteiner button:focus,
+
 .hero button:hover,
-.hero button:focus,
+.hero button:focus {
+  background-color: #188ce8;
+}
+.conteiner button:hover,
+.conteiner button:focus {
+  background-color: #2196F3;
+}
+
 .footer li a:hover,
 .footer li a:focus,
 .contacts li a:hover, 
